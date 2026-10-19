@@ -1,5 +1,7 @@
 # span_grid
 
+[![pub package](https://img.shields.io/pub/v/span_grid.svg)](https://pub.dev/packages/span_grid)
+
 A deterministic, reorderable grid for Flutter where every child can span
 multiple columns and rows.
 
@@ -24,12 +26,18 @@ animating a column change, and testing the packer do not need a widget tree.
 
 ## Status
 
-This is `0.1.0`. The package is not published to pub.dev yet. It is compatible
-with the GPL-3.0 license of Openshelf; this package itself is MIT.
+This is `0.1.0`, published on [pub.dev](https://pub.dev/packages/span_grid).
+It is compatible with the GPL-3.0 license of Openshelf; this package itself is
+MIT.
 
 ## Install
 
-While the package is unpublished, use a path or git dependency:
+```yaml
+dependencies:
+  span_grid: ^0.1.0
+```
+
+For local development, use a path dependency instead:
 
 ```yaml
 dependencies:
