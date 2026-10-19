@@ -1,0 +1,27 @@
+name: span_grid
+description: A deterministic, reorderable grid for Flutter where children can span multiple columns and rows.
+version: 0.1.0
+homepage: https://github.com/Swappppy/span_grid
+repository: https://github.com/Swappppy/span_grid
+issue_tracker: https://github.com/Swappppy/span_grid/issues
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+topics:
+  - grid
+  - layout
+  - reorderable
+
+flutter:
